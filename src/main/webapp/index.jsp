@@ -12,8 +12,9 @@
 int number = Integer.parseInt(request.getParameter("id")), firstTerm = 0, secondTerm = 1;
     System.out.println("Fibonacci Series till " + n + " terms:");
 
-    for (int i = 1; i <= n; ++i) {
-         .out.print(firstTerm + ", ");
+    for (int i = 1; i <= n; ++i) 
+    {
+         System.out.print(firstTerm + ", ");
 
       int nextTerm = firstTerm + secondTerm;
       firstTerm = secondTerm;
