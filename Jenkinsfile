@@ -1,6 +1,6 @@
 pipeline{
 environment{
-reg = "sanskarraut/poe"
+reg = "sanskarraut/poe1"
 regCre = "docker_id"
 dockerImg = ""
 }
